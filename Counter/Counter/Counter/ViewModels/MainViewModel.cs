@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace Counter.ViewModels
 {
-  public  class MainViewModel : INotifyPropertyChanged
+  public  class MainViewModel : 
     {
         private static MainViewModel _instance;
         private int _counter;
@@ -72,7 +73,7 @@ namespace Counter.ViewModels
 
         public ICommand IncrementarCommand => new Command(Incrementar);
 
-        private  void Incrementar()
+        private async Task Incrementar()
         {
            
 
@@ -80,6 +81,7 @@ namespace Counter.ViewModels
             IsEnabled = false;
 
             System.Threading.Thread.Sleep(3000);
+            await Task.Delay(3000);
             _counter++;
             Texto = _counter.ToString();
             IsRunning = false;
