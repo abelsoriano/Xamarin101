@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Counter"
+             x:Class="Counter.MainPage">
+
+    <StackLayout>
+     
+        <StackLayout>
+            <!-- Place new contdsxcvrolccs here -->
+            <Label Text="Contador" />
+            <Entry
+                BackgroundColor="White"
+                Text="{Binding Texto, Mode=TwoWay}">
+            </Entry>
+        </StackLayout>
+        <ActivityIndicator
+            HorizontalOptions="EndAndExpand"
+            IsRunning="{Binding IsRunning,Mode=TwoWay}">
+        </ActivityIndicator>
+        <Button
+            Command="{Binding IncrementarCommand}"
+            IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+            BorderRadius="20"
+            HeightRequest="40"
+            BackgroundColor="Blue"
+            TextColor="White"
+            Text="Incrementar">
+        </Button>
+    </StackLayout>
+
+
+</ContentPage>
