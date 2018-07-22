@@ -1122,3 +1122,8 @@ Counter/Counter/Counter/obj/Debug/netstandard2.0/Counter.csprojAssemblyReference
 Counter/Counter/Counter/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 Counter/Counter/Counter/obj/Debug/netstandard2.0/Page1.xaml.g.cs
 Counter/Counter/Counter/obj/project.assets.json
+*.ide-shm
+*.lock
+*.ide
+ListXampleFromApiRest/.vs/ListXampleFromApiRest/v15/.suo
+*.ide-wal
