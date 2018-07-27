@@ -1127,3 +1127,6 @@ Counter/Counter/Counter/obj/project.assets.json
 *.ide
 ListXampleFromApiRest/.vs/ListXampleFromApiRest/v15/.suo
 *.ide-wal
+ListXampAPI/.vs/config/applicationhost.config
+ListXampAPI/.vs/ListXampleFromApiRest/DesignTimeBuild/.dtbcache
+ListXampAPI/.vs/ListXampleFromApiRest/v15/.suo
