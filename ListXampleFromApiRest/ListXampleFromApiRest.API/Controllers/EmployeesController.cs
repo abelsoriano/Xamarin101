@@ -18,9 +18,32 @@ namespace ListXampleFromApiRest.API.Controllers
         private DataContext db = new DataContext();
 
         // GET: api/Employees
-        public IQueryable<Employee> GetEmployees()
+        //public IQueryable<Employee> GetEmployees()
+        //{
+        //    return db.Employees;
+        //}
+        public async Task<IHttpActionResult> GetEmployees()
         {
-            return db.Employees;
+            var employees = await db.Employees.ToArrayAsync();
+            //i need to create a response than can be different of my Model
+            var list = new List<EmployeeResponse>();
+
+            foreach (var item in employees)
+            {
+                list.Add(new EmployeeResponse
+                {
+                    Name = item.Name,
+                    Address = item.Address,
+                    Email = item.Email,
+                    EmployeeId = item.EmployeeId,
+                    LastName = item.LastName,
+                    Salary = item.Salary,
+                    Tel = item.Tel
+                });
+
+
+            }
+            return Ok(list);
         }
 
         // GET: api/Employees/5
