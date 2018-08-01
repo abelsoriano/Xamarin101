@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="EmpList.Views.EmployeeListPage"
+             Title="{Binding Title}">
+    <StackLayout Spacing="5">
+        <Label Text="Loading series..."
+               FontSize="Small" 
+               IsVisible="{Binding IsRunning}"
+               HorizontalOptions="Center"
+               Margin="0, 10"/>
+        <ActivityIndicator 
+            IsRunning="{Binding IsRunning}"
+            Color="Black"
+            IsVisible="{Binding IsRunning}"
+            VerticalOptions="Center"
+        />
+        <ListView 
+            IsVisible="{Binding IsNotRunning}"
+            ItemsSource="{Binding Employees}"
+            CachingStrategy="RecycleElement"
+            RowHeight="60"
+            SelectedItem="{Binding Employee}">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="8">
+                            <Label Text="{Binding Name}"
+                                   FontAttributes="Bold" />
+                            <Label Text="{Binding LastName}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </StackLayout>
+  
+</ContentPage>

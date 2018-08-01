@@ -1,0 +1,9 @@
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.csprojAssemblyReference.cache
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.csproj.CoreCompileInputs.cache
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.AdMobView.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.App.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.Views.MainPage.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.AssemblyInfoInputs.cache
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.AssemblyInfo.cs
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.dll
+C:\_DESARROLLO\Xamarin101\AdsAdmin\AdsAdmin\AdsAdmin\obj\Debug\netstandard2.0\AdsAdmin.pdb

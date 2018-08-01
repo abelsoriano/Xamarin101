@@ -1,0 +1,1 @@
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP.UWP\ListXampleFromApiRest.APP.UWP.csproj;x86
