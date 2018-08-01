@@ -717,20 +717,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sgerm\\.nuget\\packages\\": {}
+    "C:\\Users\\sgermosen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_DESARROLLO\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.iOS\\CounterWithMVVM.iOS.csproj",
+      "projectUniqueName": "F:\\_DESARROLLO\\Xamarin101\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.iOS\\CounterWithMVVM.iOS.csproj",
       "projectName": "CounterWithMVVM.iOS",
-      "projectPath": "C:\\_DESARROLLO\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.iOS\\CounterWithMVVM.iOS.csproj",
-      "packagesPath": "C:\\Users\\sgerm\\.nuget\\packages\\",
-      "outputPath": "C:\\_DESARROLLO\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.iOS\\obj\\",
+      "projectPath": "F:\\_DESARROLLO\\Xamarin101\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.iOS\\CounterWithMVVM.iOS.csproj",
+      "packagesPath": "C:\\Users\\sgermosen\\.nuget\\packages\\",
+      "outputPath": "F:\\_DESARROLLO\\Xamarin101\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\sgerm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sgermosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -743,8 +743,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\_DESARROLLO\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.csproj": {
-              "projectPath": "C:\\_DESARROLLO\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.csproj"
+            "F:\\_DESARROLLO\\Xamarin101\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.csproj": {
+              "projectPath": "F:\\_DESARROLLO\\Xamarin101\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM\\CounterWithMVVM.csproj"
             }
           }
         }
