@@ -52,30 +52,18 @@ namespace EmpList.ViewModels
             get => _email;
             set => SetProperty(ref _email, value);
         }
-        //private Employee _selectedShow;
-        //public Employee SelectedShow
-        //{
-        //    get { return _selectedShow; }
-        //    set { SetProperty(ref _selectedShow, value); }
-        //}
-        //public override void OnNavigatedTo(NavigationParameters parameters)
-        //{
-        //    SelectedShow = parameters["show"] as Employee;
-        //}
+
         public EmployeeDetaiilsPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-             _employee = new Employee();
-            // _employee= (Employee)parameters["model"];
-
-           
-
+            _employee = new Employee();
         }
 
         private Employee _employee;
         public override void OnNavigatingTo(NavigationParameters parameters)
         {
             _employee = (Employee)parameters["model"];
+
             Name = _employee.Name;
             LastName = _employee.LastName;
             Email = _employee.Email;
@@ -83,10 +71,10 @@ namespace EmpList.ViewModels
             Salary = _employee.Salary;
             Address = _employee.Address;
         }
-        public override void OnNavigatedFrom(NavigationParameters parameters)
-        {
-            _employee = (Employee)parameters["model"];
-        }
+        //public override void OnNavigatedFrom(NavigationParameters parameters)
+        //{
+        //    _employee = (Employee)parameters["model"];
+        //}
 
 
     }

@@ -10,8 +10,8 @@ namespace EmpList.ViewModels
         private string _title;
         public string Title
         {
-            get { return _title; }
-            set { SetProperty(ref _title, value); }
+            get => _title;
+            set => SetProperty(ref _title, value);
         }
 
         private bool _isRunning;
@@ -19,9 +19,7 @@ namespace EmpList.ViewModels
 
         public bool IsRunning
         {
-            get {
-                return _isRunning;
-            }
+            get => _isRunning;
             set {
                 SetProperty(ref _isRunning, value);
                 SetProperty(ref _isNotRunning, !value);
@@ -30,13 +28,8 @@ namespace EmpList.ViewModels
 
         public bool IsNotRunning
         {
-            get {
-                return _isNotRunning;
-            }
-            set {
-                SetProperty(ref _isNotRunning, value);
-
-            }
+            get => _isNotRunning;
+            set => SetProperty(ref _isNotRunning, value);
         }
 
 

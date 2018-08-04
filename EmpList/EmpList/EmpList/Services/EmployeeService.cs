@@ -18,15 +18,6 @@ namespace EmpList.Services
             {
                 var client = new HttpClient();
 
-                //var response = await client.GetAsync("https://listxamplefromapirestapi.azurewebsites.net/api/Employees");
-
-                //if (!response.IsSuccessStatusCode)
-                //{
-                //    return result;
-                //}
-
-                // var resultStr = await response.Content.ReadAsStringAsync();
-                //result = JsonConvert.DeserializeObject<List<Employee>>(resultStr);
                 var response = await client.GetStringAsync("https://listxamplefromapirestapi.azurewebsites.net/api/Employees");
                 result = JsonConvert.DeserializeObject<List<Employee>>(response);
 
