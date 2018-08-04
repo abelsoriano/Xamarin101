@@ -102,7 +102,6 @@ C:\_DESARROLLO\Xamarin101\EmpList\EmpList\EmpList.Android\obj\Debug\android\asse
 C:\_DESARROLLO\Xamarin101\EmpList\EmpList\EmpList.Android\obj\Debug\android\assets\Unity.Container.pdb
 C:\_DESARROLLO\Xamarin101\EmpList\EmpList\EmpList.Android\obj\Debug\android\assets\Unity.ServiceLocation.pdb
 C:\_DESARROLLO\Xamarin101\EmpList\EmpList\EmpList.Android\bin\Debug\EmpList.Android.dll
-C:\_DESARROLLO\Xamarin101\EmpList\EmpList\EmpList.Android\obj\Debug\linksrc\EmpList.pdb
 C:\_DESARROLLO\Xamarin101\EmpList\EmpList\EmpList.Android\obj\Debug\linksrc\EmpList.Android.dll.mdb
 C:\_DESARROLLO\Xamarin101\EmpList\EmpList\EmpList.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\_DESARROLLO\Xamarin101\EmpList\EmpList\EmpList.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
