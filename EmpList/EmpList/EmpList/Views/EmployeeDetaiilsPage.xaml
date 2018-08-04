@@ -4,5 +4,21 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="EmpList.Views.EmployeeDetaiilsPage">
-  
+
+    <StackLayout>
+
+        <Label Text="{Binding Name}"
+               LineBreakMode="WordWrap" 
+               Margin="15" />
+        <Label Text="{Binding LastName}"
+               LineBreakMode="WordWrap" 
+               Margin="15" />
+        <Label Text="{Binding Email}"
+               LineBreakMode="WordWrap" 
+               Margin="15" />
+        <Label Text="{Binding Salary}"
+               LineBreakMode="WordWrap" 
+               Margin="15" />
+    </StackLayout>
+
 </ContentPage>

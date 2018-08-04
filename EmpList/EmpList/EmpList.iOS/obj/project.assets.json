@@ -61,6 +61,18 @@
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
         }
       },
+      "Xam.Behaviors/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.122203": {
         "type": "package",
         "compile": {
@@ -190,6 +202,7 @@
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
+          "Xam.Behaviors": "1.0.1",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "compile": {
@@ -260,6 +273,18 @@
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
         }
       },
+      "Xam.Behaviors/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.122203": {
         "type": "package",
         "compile": {
@@ -389,6 +414,7 @@
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
+          "Xam.Behaviors": "1.0.1",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "compile": {
@@ -459,6 +485,18 @@
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
         }
       },
+      "Xam.Behaviors/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.122203": {
         "type": "package",
         "compile": {
@@ -588,6 +626,7 @@
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
+          "Xam.Behaviors": "1.0.1",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "compile": {
@@ -658,6 +697,18 @@
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
         }
       },
+      "Xam.Behaviors/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.122203": {
         "type": "package",
         "compile": {
@@ -787,6 +838,7 @@
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
+          "Xam.Behaviors": "1.0.1",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "compile": {
@@ -956,6 +1008,16 @@
         "lib/netstandard2.0/Unity.ServiceLocation.pdb",
         "unity.5.5.5.nupkg.sha512",
         "unity.nuspec"
+      ]
+    },
+    "Xam.Behaviors/1.0.1": {
+      "sha512": "d3jMXakkCVKSrq8Y9B946Mg/5EYlNzfTZblXHQEpftmWisfdeFEBiZoe8N0iV+UNgSIjJZg9xWGL9K8NKGkAqw==",
+      "type": "package",
+      "path": "xam.behaviors/1.0.1",
+      "files": [
+        "lib/netstandard2.0/Xam.Behaviors.dll",
+        "xam.behaviors.1.0.1.nupkg.sha512",
+        "xam.behaviors.nuspec"
       ]
     },
     "Xamarin.Forms/2.5.0.122203": {

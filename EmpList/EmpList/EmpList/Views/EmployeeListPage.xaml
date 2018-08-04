@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="EmpList.Views.EmployeeListPage"
              Title="{Binding Title}">
     <StackLayout Spacing="5">
-        <Label Text="Loading series..."
+        <Label Text="Loading employess..."
                FontSize="Small" 
                IsVisible="{Binding IsRunning}"
                HorizontalOptions="Center"
@@ -18,12 +19,10 @@
             VerticalOptions="Center"
         />
         <ListView 
-            IsVisible="{Binding IsNotRunning}"
             ItemsSource="{Binding Employees}"
+            SelectedItem="{Binding SelectedEmployee}"
             CachingStrategy="RecycleElement"
-            RowHeight="60"
-            SelectedItem="{Binding Employee}">
-
+            RowHeight="60">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -35,8 +34,21 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            <!--<ListView.Behaviors>
+                <b:EventToCommandBehavior EventName="ItemTapped" 
+                                          Command="{Binding NavigateCommand}" />
+            </ListView.Behaviors>-->
+            <ListView.Behaviors>
+                <b:EventToCommandBehavior EventName="ItemTapped" 
+                                          Command="{Binding NavigateCommand}" />
+            </ListView.Behaviors>
 
+            <!--<behaviors:Interaction.Behaviors>
+                <behaviors:BehaviorCollection>
+                    <behaviors:EventToCommand EventName="ItemTapped" Command="{Binding GoToDetailPage}" />
+                </behaviors:BehaviorCollection>
+            </behaviors:Interaction.Behaviors>-->
         </ListView>
     </StackLayout>
-  
+
 </ContentPage>

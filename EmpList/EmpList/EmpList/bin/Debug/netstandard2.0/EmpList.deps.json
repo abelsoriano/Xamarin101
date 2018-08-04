@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "4eff8365f4a641babcc19ffc9358d7d109471936"
+    "signature": "f9c970ad25e604f5ea800449c66f85307eb1956c"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,6 +12,7 @@
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "Prism.Unity.Forms": "7.0.0.396",
+          "Xam.Behaviors": "1.0.1",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "runtime": {
@@ -58,6 +59,14 @@
           "lib/netstandard2.0/Unity.Abstractions.dll": {},
           "lib/netstandard2.0/Unity.Container.dll": {},
           "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
+      "Xam.Behaviors/1.0.1": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xam.Behaviors.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.122203": {
@@ -123,6 +132,13 @@
       "sha512": "sha512-kg101Re8N7rzTro2G5n6k9j15MpuRQQ+4MjmDY36RL/ewCa93f2ZOp8Mayl6Ou0d/AGf9YVEK4r7uCpNV6fczQ==",
       "path": "unity/5.5.5",
       "hashPath": "unity.5.5.5.nupkg.sha512"
+    },
+    "Xam.Behaviors/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d3jMXakkCVKSrq8Y9B946Mg/5EYlNzfTZblXHQEpftmWisfdeFEBiZoe8N0iV+UNgSIjJZg9xWGL9K8NKGkAqw==",
+      "path": "xam.behaviors/1.0.1",
+      "hashPath": "xam.behaviors.1.0.1.nupkg.sha512"
     },
     "Xamarin.Forms/2.5.0.122203": {
       "type": "package",

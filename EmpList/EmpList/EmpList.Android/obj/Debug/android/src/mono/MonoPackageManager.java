@@ -117,6 +117,7 @@ class MonoPackageManager_Resources {
 		"Unity.Abstractions.dll",
 		"Unity.Container.dll",
 		"Unity.ServiceLocation.dll",
+		"Xam.Behaviors.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
