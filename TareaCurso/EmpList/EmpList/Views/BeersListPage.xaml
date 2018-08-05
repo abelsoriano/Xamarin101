@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="EmpList.Views.BeersListPage">
+    <StackLayout Spacing="5">
+        <Label Text="Loading Beers..."
+               FontSize="Small" 
+               IsVisible="{Binding IsRunning}"
+               HorizontalOptions="Center"
+               Margin="0, 10"/>
+        <ActivityIndicator 
+            IsRunning="{Binding IsRunning}"
+            Color="Black"
+            IsVisible="{Binding IsRunning}"
+            VerticalOptions="Center"
+        />
+        <ListView 
+            ItemsSource="{Binding Beers}"
+            SelectedItem="{Binding SelectedBeer}"
+            CachingStrategy="RecycleElement"
+            RowHeight="60">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="8">
+                            <Label Text="{Binding Name}"
+                                   FontAttributes="Bold" />
+                            <Label Text="{Binding Description}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <ListView.Behaviors>
+                <b:EventToCommandBehavior EventName="ItemTapped" 
+                                          Command="{Binding NavigateCommand}" />
+            </ListView.Behaviors>
+
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
