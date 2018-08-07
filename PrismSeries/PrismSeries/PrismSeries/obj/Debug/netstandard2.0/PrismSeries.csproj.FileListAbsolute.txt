@@ -1,0 +1,10 @@
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\bin\Debug\netstandard2.0\PrismSeries.deps.json
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\bin\Debug\netstandard2.0\PrismSeries.dll
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\bin\Debug\netstandard2.0\PrismSeries.pdb
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\obj\Debug\netstandard2.0\PrismSeries.csproj.CoreCompileInputs.cache
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\obj\Debug\netstandard2.0\PrismSeries.App.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\obj\Debug\netstandard2.0\PrismSeries.Views.MainPage.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\obj\Debug\netstandard2.0\PrismSeries.AssemblyInfoInputs.cache
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\obj\Debug\netstandard2.0\PrismSeries.AssemblyInfo.cs
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\obj\Debug\netstandard2.0\PrismSeries.dll
+C:\_DESARROLLO\Xamarin101\PrismSeries\PrismSeries\PrismSeries\obj\Debug\netstandard2.0\PrismSeries.pdb

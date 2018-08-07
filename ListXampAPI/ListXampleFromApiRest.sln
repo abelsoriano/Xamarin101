@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListXampleFromApiRest.Backend", "ListXampleFromApiRest.Backend\ListXampleFromApiRest.Backend.csproj", "{A9C97FB2-A876-4826-8B0C-CE84A38CF348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListXampleFromApiRest.API", "ListXampleFromApiRest.API\ListXampleFromApiRest.API.csproj", "{CD361545-81E2-4782-B242-F478ED927FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C97FB2-A876-4826-8B0C-CE84A38CF348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C97FB2-A876-4826-8B0C-CE84A38CF348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C97FB2-A876-4826-8B0C-CE84A38CF348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C97FB2-A876-4826-8B0C-CE84A38CF348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD361545-81E2-4782-B242-F478ED927FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD361545-81E2-4782-B242-F478ED927FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD361545-81E2-4782-B242-F478ED927FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD361545-81E2-4782-B242-F478ED927FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCEA388C-47D9-480E-94E5-9AE9C7465E41}
+	EndGlobalSection
+EndGlobal

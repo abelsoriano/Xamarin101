@@ -1,0 +1,9 @@
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\bin\Debug\netstandard2.0\ListXampleFromApiRest.APP.deps.json
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\bin\Debug\netstandard2.0\ListXampleFromApiRest.APP.dll
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\bin\Debug\netstandard2.0\ListXampleFromApiRest.APP.pdb
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\obj\Debug\netstandard2.0\ListXampleFromApiRest.APP.csprojAssemblyReference.cache
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\obj\Debug\netstandard2.0\ListXampleFromApiRest.APP.csproj.CoreCompileInputs.cache
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\obj\Debug\netstandard2.0\ListXampleFromApiRest.APP.AssemblyInfoInputs.cache
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\obj\Debug\netstandard2.0\ListXampleFromApiRest.APP.AssemblyInfo.cs
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\obj\Debug\netstandard2.0\ListXampleFromApiRest.APP.dll
+C:\_DESARROLLO\Xamarin101\ListXampAPI\ListXampleFromApiRest\ListXampleFromApiRest.APP\ListXampleFromApiRest.APP\obj\Debug\netstandard2.0\ListXampleFromApiRest.APP.pdb
