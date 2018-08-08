@@ -30,21 +30,21 @@ namespace EmpList.ViewModels
             GetBeersFromApi();
 
             NavigateCommand = new DelegateCommand(Navigate);
-
+               
         }
 
         async void Navigate()
         {
             var navigationParams = new NavigationParameters();
-            navigationParams.Add("model", selectedBeer);
+            navigationParams.Add("model", _selectedBeer);
             await _navigationService.NavigateAsync("BeerDetailsPage", navigationParams);
         }
 
-        private Beer selectedBeer;
+        private Beer _selectedBeer;
         public Beer SelectedBeer
         {
-            get => selectedBeer;
-            set => SetProperty(ref selectedBeer, value);
+            get => _selectedBeer;
+            set => SetProperty(ref _selectedBeer, value);
         }
 
         public DelegateCommand NavigateCommand { get; private set; }

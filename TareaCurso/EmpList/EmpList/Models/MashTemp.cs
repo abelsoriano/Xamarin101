@@ -12,6 +12,6 @@ namespace EmpList.Models
         public BoilVolume Temp { get; set; }
 
         [JsonProperty("duration")]
-        public long Duration { get; set; }
+        public long? Duration { get; set; }
     }
 }

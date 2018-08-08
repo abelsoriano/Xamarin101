@@ -15,8 +15,8 @@ namespace EmpList.ViewModels
 
         public ObservableCollection<Employee> Employees
         {
-            get { return _employees; }
-            set { SetProperty(ref _employees, value); }
+            get => _employees;
+            set => SetProperty(ref _employees, value);
         }
 
         public EmployeeListPageViewModel(INavigationService navigationService, IEmployeeService employeeService) : base(navigationService)
@@ -34,21 +34,20 @@ namespace EmpList.ViewModels
 
         async void Navigate()
         {
-            var navigationParams = new NavigationParameters();
-            navigationParams.Add("model", selectedEmployee);
+            var navigationParams = new NavigationParameters {{"model", _selectedEmployee}};
             await _navigationService.NavigateAsync("EmployeeDetaiilsPage", navigationParams);
         }
 
-        private Employee selectedEmployee;
+        private Employee _selectedEmployee;
         public Employee SelectedEmployee
         {
-            get => selectedEmployee;
-            set => SetProperty(ref selectedEmployee, value);
+            get => _selectedEmployee;
+            set => SetProperty(ref _selectedEmployee, value);
         }
 
         public DelegateCommand NavigateCommand { get; private set; }
 
-        async void GetEmployeesFromApi()
+        private async void GetEmployeesFromApi()
         {
             IsRunning = true;
             var result = await _employeeService.GetAllEmployees();

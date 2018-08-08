@@ -8,7 +8,7 @@ namespace EmpList.Models
     public class Beer
     {
         [JsonProperty("id")]
-        public long Id { get; set; }
+        public long? Id { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -26,28 +26,28 @@ namespace EmpList.Models
         public string ImageUrl { get; set; }
 
         [JsonProperty("abv")]
-        public double Abv { get; set; }
+        public double? Abv { get; set; }
 
         [JsonProperty("ibu")]
-        public long Ibu { get; set; }
+        public long? Ibu { get; set; }
 
         [JsonProperty("target_fg")]
-        public long TargetFg { get; set; }
+        public long? TargetFg { get; set; }
 
         [JsonProperty("target_og")]
-        public long TargetOg { get; set; }
+        public long? TargetOg { get; set; }
 
         [JsonProperty("ebc")]
-        public long Ebc { get; set; }
+        public long? Ebc { get; set; }
 
         [JsonProperty("srm")]
-        public long Srm { get; set; }
+        public long? Srm { get; set; }
 
         [JsonProperty("ph")]
-        public double Ph { get; set; }
+        public double? Ph { get; set; }
 
         [JsonProperty("attenuation_level")]
-        public long AttenuationLevel { get; set; }
+        public long? AttenuationLevel { get; set; }
 
         [JsonProperty("volume")]
         public BoilVolume Volume { get; set; }

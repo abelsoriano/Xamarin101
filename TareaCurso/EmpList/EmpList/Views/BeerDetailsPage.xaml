@@ -6,7 +6,7 @@
              x:Class="EmpList.Views.BeerDetailsPage">
     <StackLayout>
 
-        <Label Text="{Binding Name}"
+        <Label Text="{Binding Beer.Name}"
                LineBreakMode="WordWrap" 
                Margin="15" />
         <!--<Label Text="{Binding Employee.LastName}"
