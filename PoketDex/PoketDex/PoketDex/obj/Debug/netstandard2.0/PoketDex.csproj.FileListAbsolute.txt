@@ -1,0 +1,8 @@
+F:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex\bin\Debug\netstandard2.0\PoketDex.deps.json
+F:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex\bin\Debug\netstandard2.0\PoketDex.dll
+F:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.csprojAssemblyReference.cache
+F:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.csproj.CoreCompileInputs.cache
+F:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.App.xaml.g.cs
+F:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.Views.MainPage.xaml.g.cs
+F:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.AssemblyInfoInputs.cache
+F:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.AssemblyInfo.cs
