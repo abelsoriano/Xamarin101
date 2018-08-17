@@ -24,26 +24,31 @@ namespace PoketDex
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("BaseNavigationPage/MasterPage");
+           // await NavigationService.NavigateAsync("BaseNavigationPage/MasterPage");
+            await NavigationService.NavigateAsync("NavigationPage/MainPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<NavigationPage>();
-            //containerRegistry.RegisterForNavigation<MainPage>();
-            containerRegistry.RegisterForNavigation<MasterPage>();
-            //containerRegistry.RegisterForNavigation<MyNavigationPage>();
-            //containerRegistry.RegisterForNavigation<MasterPageView>();
+            //containerRegistry.RegisterForNavigation<NavigationPage>();
+            ////containerRegistry.RegisterForNavigation<MainPage>();
             //containerRegistry.RegisterForNavigation<MasterPage>();
-            containerRegistry.RegisterForNavigation<Xamarin.Forms.MasterDetailPage>();
-            //containerRegistry.RegisterForNavigation<MasterDetailPage>();
-            containerRegistry.RegisterForNavigation<BaseNavigationPage>();
-            containerRegistry.RegisterForNavigation<DetailPage>();
+            ////containerRegistry.RegisterForNavigation<MyNavigationPage>();
+            ////containerRegistry.RegisterForNavigation<MasterPageView>();
+            ////containerRegistry.RegisterForNavigation<MasterPage>();
+            //containerRegistry.RegisterForNavigation<Xamarin.Forms.MasterDetailPage>();
+            ////containerRegistry.RegisterForNavigation<MasterDetailPage>();
+            //containerRegistry.RegisterForNavigation<BaseNavigationPage>();
+            //containerRegistry.RegisterForNavigation<DetailPage>();
 
-            //containerRegistry.RegisterTypeForNavigation<MasterDetailPageView, MasterDetailPageViewModel>();
-            //Container.RegisterTypeForNavigation<MasterPageView, MasterPageViewModel>();
+            ////containerRegistry.RegisterTypeForNavigation<MasterDetailPageView, MasterDetailPageViewModel>();
+            ////Container.RegisterTypeForNavigation<MasterPageView, MasterPageViewModel>();
             //Container.RegisterTypeForNavigation<DetailPageView, DetailPageViewModel>();
             //Container.RegisterTypeForNavigation<BaseNavigationPageView, BaseNavigationPageViewModel>();
+            containerRegistry.RegisterForNavigation<NavigationPage>();
+            containerRegistry.RegisterForNavigation<MainPage>();
+            containerRegistry.RegisterForNavigation<FavoritePage>();
+            containerRegistry.RegisterForNavigation<PokemonList>();
         }
     }
 }
