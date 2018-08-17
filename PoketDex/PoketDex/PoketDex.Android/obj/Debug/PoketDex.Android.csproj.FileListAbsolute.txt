@@ -1,0 +1,1 @@
+C:\_DESARROLLO\Xamarin101\PoketDex\PoketDex\PoketDex.Android\obj\Debug\PoketDex.Android.csprojAssemblyReference.cache

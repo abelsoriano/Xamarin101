@@ -11,7 +11,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.3": {
+      "NETStandard.Library/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -110,21 +110,22 @@
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
-        "Microsoft.NETCore.Platforms.1.1.0.nupkg.sha512",
-        "Microsoft.NETCore.Platforms.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+    "NETStandard.Library/2.0.1": {
+      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "type": "package",
-      "path": "netstandard.library/2.0.3",
+      "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -241,7 +242,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -556,30 +557,30 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
+      "NETStandard.Library >= 2.0.1",
       "Newtonsoft.Json >= 11.0.2",
       "Prism.Unity.Forms >= 7.0.0.396",
       "Xamarin.Forms >= 3.1.0.697729"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sgermosen\\.nuget\\packages\\": {},
+    "C:\\Users\\sgerm\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj",
+      "projectUniqueName": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj",
       "projectName": "PoketDex",
-      "projectPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj",
-      "packagesPath": "C:\\Users\\sgermosen\\.nuget\\packages\\",
-      "outputPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\obj\\",
+      "projectPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj",
+      "packagesPath": "C:\\Users\\sgerm\\.nuget\\packages\\",
+      "outputPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sgermosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sgerm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -606,7 +607,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.3, )",
+            "version": "[2.0.1, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {

@@ -1,0 +1,15 @@
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.csprojAssemblyReference.cache
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.csproj.CoreCompileInputs.cache
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.App.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.Views.BaseNavigationPage.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.Views.DetailPage.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.Views.MainPage.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.Views.MasterPage.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.AssemblyInfoInputs.cache
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.AssemblyInfo.cs
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\bin\Debug\netstandard2.0\mPoketDex.deps.json
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\bin\Debug\netstandard2.0\mPoketDex.dll
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\bin\Debug\netstandard2.0\mPoketDex.pdb
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.Views.MasterDetailPageView.xaml.g.cs
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.dll
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex\obj\Debug\netstandard2.0\mPoketDex.pdb

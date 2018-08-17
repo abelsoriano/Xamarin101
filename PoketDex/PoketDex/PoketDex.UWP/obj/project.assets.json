@@ -8120,24 +8120,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sgermosen\\.nuget\\packages\\": {},
+    "C:\\Users\\sgerm\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.UWP\\PoketDex.UWP.csproj",
+      "projectUniqueName": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.UWP\\PoketDex.UWP.csproj",
       "projectName": "PoketDex.UWP",
-      "projectPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.UWP\\PoketDex.UWP.csproj",
-      "packagesPath": "C:\\Users\\sgermosen\\.nuget\\packages\\",
-      "outputPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.UWP\\obj\\",
+      "projectPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.UWP\\PoketDex.UWP.csproj",
+      "packagesPath": "C:\\Users\\sgerm\\.nuget\\packages\\",
+      "outputPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\sgermosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sgerm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8150,8 +8150,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj": {
-              "projectPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj"
+            "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj": {
+              "projectPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj"
             }
           }
         }
