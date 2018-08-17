@@ -1,0 +1,1 @@
+C:\_DESARROLLO\Xamarin101\mPoketDex\mPoketDex\mPoketDex.UWP\mPoketDex.UWP.csproj;x86

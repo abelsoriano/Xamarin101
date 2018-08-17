@@ -1121,20 +1121,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sgermosen\\.nuget\\packages\\": {}
+    "C:\\Users\\sgerm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.iOS\\PoketDex.iOS.csproj",
+      "projectUniqueName": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.iOS\\PoketDex.iOS.csproj",
       "projectName": "PoketDex.iOS",
-      "projectPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.iOS\\PoketDex.iOS.csproj",
-      "packagesPath": "C:\\Users\\sgermosen\\.nuget\\packages\\",
-      "outputPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.iOS\\obj\\",
+      "projectPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.iOS\\PoketDex.iOS.csproj",
+      "packagesPath": "C:\\Users\\sgerm\\.nuget\\packages\\",
+      "outputPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\sgermosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sgerm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1147,8 +1147,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj": {
-              "projectPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj"
+            "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj": {
+              "projectPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj"
             }
           }
         }

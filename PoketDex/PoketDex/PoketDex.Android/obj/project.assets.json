@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "MonoAndroid,Version=v7.1": {
+    "MonoAndroid,Version=v8.1": {
       "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
@@ -533,11 +533,11 @@
       "path": "xamarin.android.support.animated.vector.drawable/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Animated.Vector.Drawable.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Animated.Vector.Drawable.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.targets",
         "lib/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.dll",
-        "proguard/proguard.txt"
+        "proguard/proguard.txt",
+        "xamarin.android.support.animated.vector.drawable.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.animated.vector.drawable.nuspec"
       ]
     },
     "Xamarin.Android.Support.Annotations/25.4.0.2": {
@@ -546,9 +546,9 @@
       "path": "xamarin.android.support.annotations/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Annotations.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Annotations.nuspec",
-        "lib/MonoAndroid70/Xamarin.Android.Support.Annotations.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.Annotations.dll",
+        "xamarin.android.support.annotations.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.annotations.nuspec"
       ]
     },
     "Xamarin.Android.Support.Compat/25.4.0.2": {
@@ -557,10 +557,10 @@
       "path": "xamarin.android.support.compat/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Compat.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Compat.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Compat.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll",
+        "xamarin.android.support.compat.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.compat.nuspec"
       ]
     },
     "Xamarin.Android.Support.Core.UI/25.4.0.2": {
@@ -569,11 +569,11 @@
       "path": "xamarin.android.support.core.ui/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Core.UI.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Core.UI.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Core.UI.targets",
         "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll",
-        "proguard/proguard.txt"
+        "proguard/proguard.txt",
+        "xamarin.android.support.core.ui.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.core.ui.nuspec"
       ]
     },
     "Xamarin.Android.Support.Core.Utils/25.4.0.2": {
@@ -582,10 +582,10 @@
       "path": "xamarin.android.support.core.utils/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Core.Utils.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Core.Utils.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Core.Utils.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll",
+        "xamarin.android.support.core.utils.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.core.utils.nuspec"
       ]
     },
     "Xamarin.Android.Support.Design/25.4.0.2": {
@@ -594,11 +594,11 @@
       "path": "xamarin.android.support.design/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Design.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Design.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Design.targets",
         "lib/MonoAndroid70/Xamarin.Android.Support.Design.dll",
-        "proguard/proguard.txt"
+        "proguard/proguard.txt",
+        "xamarin.android.support.design.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.design.nuspec"
       ]
     },
     "Xamarin.Android.Support.Fragment/25.4.0.2": {
@@ -607,10 +607,10 @@
       "path": "xamarin.android.support.fragment/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Fragment.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Fragment.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Fragment.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll",
+        "xamarin.android.support.fragment.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.fragment.nuspec"
       ]
     },
     "Xamarin.Android.Support.Media.Compat/25.4.0.2": {
@@ -619,10 +619,10 @@
       "path": "xamarin.android.support.media.compat/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Media.Compat.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Media.Compat.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Media.Compat.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll",
+        "xamarin.android.support.media.compat.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.media.compat.nuspec"
       ]
     },
     "Xamarin.Android.Support.Transition/25.4.0.2": {
@@ -631,10 +631,10 @@
       "path": "xamarin.android.support.transition/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Transition.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Transition.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Transition.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.Transition.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.Transition.dll",
+        "xamarin.android.support.transition.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.transition.nuspec"
       ]
     },
     "Xamarin.Android.Support.v4/25.4.0.2": {
@@ -643,10 +643,10 @@
       "path": "xamarin.android.support.v4/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.v4.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.v4.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.v4.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.v4.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.v4.dll",
+        "xamarin.android.support.v4.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.v4.nuspec"
       ]
     },
     "Xamarin.Android.Support.v7.AppCompat/25.4.0.2": {
@@ -655,10 +655,10 @@
       "path": "xamarin.android.support.v7.appcompat/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.v7.AppCompat.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.v7.AppCompat.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.dll",
+        "xamarin.android.support.v7.appcompat.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.v7.appcompat.nuspec"
       ]
     },
     "Xamarin.Android.Support.v7.CardView/25.4.0.2": {
@@ -667,10 +667,10 @@
       "path": "xamarin.android.support.v7.cardview/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.v7.CardView.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.v7.CardView.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.v7.CardView.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.v7.CardView.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.v7.CardView.dll",
+        "xamarin.android.support.v7.cardview.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.v7.cardview.nuspec"
       ]
     },
     "Xamarin.Android.Support.v7.MediaRouter/25.4.0.2": {
@@ -679,10 +679,10 @@
       "path": "xamarin.android.support.v7.mediarouter/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.v7.MediaRouter.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.v7.MediaRouter.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.v7.MediaRouter.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.v7.MediaRouter.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.v7.MediaRouter.dll",
+        "xamarin.android.support.v7.mediarouter.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.v7.mediarouter.nuspec"
       ]
     },
     "Xamarin.Android.Support.v7.Palette/25.4.0.2": {
@@ -691,10 +691,10 @@
       "path": "xamarin.android.support.v7.palette/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.v7.Palette.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.v7.Palette.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.v7.Palette.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.v7.Palette.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.v7.Palette.dll",
+        "xamarin.android.support.v7.palette.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.v7.palette.nuspec"
       ]
     },
     "Xamarin.Android.Support.v7.RecyclerView/25.4.0.2": {
@@ -703,11 +703,11 @@
       "path": "xamarin.android.support.v7.recyclerview/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.v7.RecyclerView.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.v7.RecyclerView.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.v7.RecyclerView.targets",
         "lib/MonoAndroid70/Xamarin.Android.Support.v7.RecyclerView.dll",
-        "proguard/proguard.txt"
+        "proguard/proguard.txt",
+        "xamarin.android.support.v7.recyclerview.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.v7.recyclerview.nuspec"
       ]
     },
     "Xamarin.Android.Support.Vector.Drawable/25.4.0.2": {
@@ -716,11 +716,11 @@
       "path": "xamarin.android.support.vector.drawable/25.4.0.2",
       "files": [
         "THIRD-PARTY-NOTICES.txt",
-        "Xamarin.Android.Support.Vector.Drawable.25.4.0.2.nupkg.sha512",
-        "Xamarin.Android.Support.Vector.Drawable.nuspec",
         "build/MonoAndroid70/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
         "build/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.targets",
-        "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll"
+        "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll",
+        "xamarin.android.support.vector.drawable.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
     "Xamarin.Forms/3.1.0.697729": {
@@ -879,7 +879,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "MonoAndroid,Version=v7.1": [
+    "MonoAndroid,Version=v8.1": [
       "PoketDex >= 1.0.0",
       "Prism.Unity.Forms >= 7.0.0.396",
       "Xamarin.Android.Support.Design >= 25.4.0.2",
@@ -891,41 +891,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sgermosen\\.nuget\\packages\\": {}
+    "C:\\Users\\sgerm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.Android\\PoketDex.Android.csproj",
+      "projectUniqueName": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.Android\\PoketDex.Android.csproj",
       "projectName": "PoketDex.Android",
-      "projectPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.Android\\PoketDex.Android.csproj",
-      "packagesPath": "C:\\Users\\sgermosen\\.nuget\\packages\\",
-      "outputPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.Android\\obj\\",
+      "projectPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.Android\\PoketDex.Android.csproj",
+      "packagesPath": "C:\\Users\\sgerm\\.nuget\\packages\\",
+      "outputPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\sgermosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sgerm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "monoandroid71"
+        "monoandroid81"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "monoandroid71": {
+        "monoandroid81": {
           "projectReferences": {
-            "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj": {
-              "projectPath": "F:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj"
+            "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj": {
+              "projectPath": "C:\\_DESARROLLO\\Xamarin101\\PoketDex\\PoketDex\\PoketDex\\PoketDex.csproj"
             }
           }
         }
       }
     },
     "frameworks": {
-      "monoandroid71": {
+      "monoandroid81": {
         "dependencies": {
           "Prism.Unity.Forms": {
             "target": "Package",

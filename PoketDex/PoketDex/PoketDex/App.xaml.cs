@@ -24,13 +24,26 @@ namespace PoketDex
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("BaseNavigationPage/MasterPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<MainPage>();
+            //containerRegistry.RegisterForNavigation<MainPage>();
+            containerRegistry.RegisterForNavigation<MasterPage>();
+            //containerRegistry.RegisterForNavigation<MyNavigationPage>();
+            //containerRegistry.RegisterForNavigation<MasterPageView>();
+            //containerRegistry.RegisterForNavigation<MasterPage>();
+            containerRegistry.RegisterForNavigation<Xamarin.Forms.MasterDetailPage>();
+            //containerRegistry.RegisterForNavigation<MasterDetailPage>();
+            containerRegistry.RegisterForNavigation<BaseNavigationPage>();
+            containerRegistry.RegisterForNavigation<DetailPage>();
+
+            //containerRegistry.RegisterTypeForNavigation<MasterDetailPageView, MasterDetailPageViewModel>();
+            //Container.RegisterTypeForNavigation<MasterPageView, MasterPageViewModel>();
+            //Container.RegisterTypeForNavigation<DetailPageView, DetailPageViewModel>();
+            //Container.RegisterTypeForNavigation<BaseNavigationPageView, BaseNavigationPageViewModel>();
         }
     }
 }

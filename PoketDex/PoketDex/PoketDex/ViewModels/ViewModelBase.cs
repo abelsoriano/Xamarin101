@@ -14,13 +14,21 @@ namespace PoketDex.ViewModels
         private string _title;
         public string Title
         {
-            get { return _title; }
-            set { SetProperty(ref _title, value); }
+            get => _title;
+            set => SetProperty(ref _title, value);
         }
+
+        public DelegateCommand<string> NavigateCommand { get; set; }
 
         public ViewModelBase(INavigationService navigationService)
         {
             NavigationService = navigationService;
+            NavigateCommand = new DelegateCommand<string>(Navigate);
+        }
+
+        private async void Navigate(string name)
+        {
+            await NavigationService.NavigateAsync(name);
         }
 
         public virtual void OnNavigatedFrom(NavigationParameters parameters)
